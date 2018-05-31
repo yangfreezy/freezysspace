@@ -1,4 +1,4 @@
-# freezysspace
+# freezys.space
 This is the code for my personal website / art gallery. 
 
 Futurism is my most recent work where I'm transitioning away from nature photography. the music in the gallery is Kyoto Bells
@@ -21,15 +21,18 @@ My website: http://freezys.space/
 Music featured, along with the musician's pages. 
 
 Kendall Miles
+
 https://kendallmiles.bandcamp.com/
 https://soundcloud.com/kendallmilesmusic/apart-1
 
 
 Jim Hall
+
 http://www.jimhalljazz.com/
 https://www.youtube.com/watch?v=WE4wmb0oYmw
 
 J'san
+
 https://soundcloud.com/iamjsan
 https://open.spotify.com/album/4bwwiOqoiN3PMKWjy4A8eD
 https://open.spotify.com/album/3SDYUp3XYMqqKMfRlRgpXE
