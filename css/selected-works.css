@@ -1,3 +1,5 @@
+/* General Page Settings for selected-works.html */
+
 html,
 body {
   margin: 0px;
@@ -6,11 +8,6 @@ body {
   overflow-x: hidden;
   background: black;
   height: 100%;
-}
-
-@font-face {
-    font-family: brush script mt;
-    src: 'https://www.wfonts.com/download/data/2014/12/29/brush-script-mt/brush-script-mt.zip';
 }
 
 /* OPENING EFFECTS */
@@ -38,7 +35,6 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 /* NAVIGATION */
@@ -47,8 +43,6 @@ body {
   color: black;
   display: flex;
   font-family: brush script mt;
-  /*	text-decoration: underline;
-*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -117,8 +111,6 @@ body {
   object-fit: cover;
   margin-bottom: 10rem;
   margin-top: 0;
-  /* margin-left: 2rem;
-			margin-right: 2rem; */
   box-shadow: 5px 5px 10px black;
   z-index: 2;
 }
@@ -146,7 +138,7 @@ body {
   margin-left: 0rem;
 }
 
-.musicby{
+.musicby {
   flex-direction: row;
 }
 .column img {
@@ -155,34 +147,31 @@ body {
   object-fit: cover;
   margin-bottom: 7.4rem;
   margin-top: 2.6rem;
-  /* margin-left: 2rem;
-			margin-right: 2rem; */
   box-shadow: 10px 10px 10px black;
   z-index: 2;
 }
 
-@media only screen and (max-device-width: 667px) 
-    and (-webkit-device-pixel-ratio: 2) {  
-    
-    html, body {
+@media only screen and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  html,
+  body {
     background: white;
- 
-    }
-    #nav ul {
+  }
+  #nav ul {
     background-color: white;
-    }
-    .gallery {background-color:white}
-    
-    #nav {
-    
+  }
+  .gallery {
+    background-color: white;
+  }
+
+  #nav {
     padding-top: 2.5rem;
     background-color: white;
-    }
-      #nav a {
+  }
+  #nav a {
     font-size: 1.75rem;
     padding-left: 2.3rem;
     padding-right: 2.3rem;
-    color:#868686;
+    color: #868686;
     font-family: avenir;
   }
   #nav a:hover {
@@ -190,13 +179,13 @@ body {
     padding-left: 2.3rem;
     padding-right: 2.3rem;
     color: #b0b0b0;
-    font-family:avenir;
+    font-family: avenir;
   }
-    
-    .column {
-    	background-color: white;
-    }
-    .column img {
+
+  .column {
+    background-color: white;
+  }
+  .column img {
     width: 50rem;
     height: 50rem;
     object-fit: cover;
@@ -223,7 +212,6 @@ body {
     align-items: center;
     background: white;
     margin-bottom: 3rem;
-    
   }
   #music a {
     text-decoration: none;
@@ -231,6 +219,5 @@ body {
     color: white;
     font-size: 2rem;
     margin-left: 0.5rem;
- 
   }
 }
